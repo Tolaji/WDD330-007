@@ -1,0 +1,5 @@
+Trello board: - https://trello.com/b/m57R2BW8/sleepoutside-team1
+
+Github: - https://github.com/Tolaji/WDD330-007
+
+Project URL: - https://sleepoutside-wdd330-007.netlify.app/
