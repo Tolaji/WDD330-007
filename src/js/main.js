@@ -1,6 +1,6 @@
 import ProductData from "./ProductData.mjs";
 import ProductList from "./ProductList.mjs";
-import { updateCartCount } from "./utils.mjs";
+import { updateCartCount, loadHeaderFooter } from "./utils.mjs";
 
 const category = "tents";
 const dataSource = new ProductData(category);
@@ -13,3 +13,6 @@ productList.init();
 
 // Update the cart count on page load
 updateCartCount(cartCount);
+
+// Load header and footer
+loadHeaderFooter();
