@@ -38,7 +38,7 @@ export default class ProductData {
 
   // getData now takes category as a parameter and uses async/await
   async getData(category) {
-    const response = await fetch(`${baseURL}/products/search/${category}`);
+    const response = await fetch(`${baseURL}/products/search/${category}`); // correct path
     const data = await convertToJson(response);
     return data.Result; // API returns { Result: [...] }
   }
